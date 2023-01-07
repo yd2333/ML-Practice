@@ -15,9 +15,9 @@ This depository contains some of the ML models from scratch with pytorch
 ## Results
 
 ### 2-D dateautoencoder
-x-axis: encoded dimension 1 \\
-y-axis: encoded dimension 2 \\
-color: Class of the mapped data \\
+x-axis: encoded dimension 1 \
+y-axis: encoded dimension 2 \
+color: Class of the mapped data \
 <img src="pics/AE.png" alt="drawing" width="500"/>
 
 ### GAN
