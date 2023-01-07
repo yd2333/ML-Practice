@@ -48,7 +48,7 @@ table = []
 for lambda_val in lambda_vals:
     # instantiate LDA object
     model = MyLDA(lambda_val)
-    # call to your CV function to compute error rates for each fold
+    # call to CV function to compute error rates for each fold
     err_rates = my_cross_val(model, 'err_rate', X_train, y_train, k=10)
 
     row = err_rates

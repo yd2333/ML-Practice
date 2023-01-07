@@ -1,17 +1,10 @@
-################################
-# DO NOT EDIT THE FOLLOWING CODE
-################################
-
 import numpy as np
-
 import torch
 import torchvision
 from torchvision.transforms import Compose, ToTensor, Normalize
-
 from matplotlib import pyplot as plt
 
 def load_MNIST(batch_size, normalize_vals):
-
     # for correctly download the dataset using torchvision, do not change!
     from six.moves import urllib
     opener = urllib.request.build_opener()

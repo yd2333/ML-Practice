@@ -47,7 +47,7 @@ table_la = []
 for lambda_val in lambda_vals:
     # instantiate ridge regression object
     rr_model = MyRidgeRegression(lambda_val)
-    # call to your CV function to compute mse for each fold
+    # call to CV function to compute mse for each fold
     mse_list_rr = my_cross_val(rr_model, "mse", X_train, y_train)
     row = mse_list_rr
     mse_rr = sum(mse_list_rr) / len(mse_list_rr)
@@ -63,7 +63,7 @@ for lambda_val in lambda_vals:
     print("MSE after cross validation for Ridge Regression is: ", mse_list_rr)
     # instantiate lasso object
     la_model = Lasso(lambda_val)
-    # call to your CV function to compute mse for each fold
+    # call to CV function to compute mse for each fold
     mse_list_la = my_cross_val(la_model, "mse", X_train, y_train)
     mse_la = sum(mse_list_la) / len(mse_list_la)
     row = mse_list_la
