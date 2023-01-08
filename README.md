@@ -6,7 +6,7 @@ This depository contains some of the ML models from scratch with pytorch
 - Ridge Regression
 - Autoencoder
 - Convolutional neural network
-- Latent Dirichlet allocation (LDA)
+- Linear Discriminant Analysis (LDA)
 - Generative Adversarial Network
 - Multi-layer Perceptron
 - Decision Tree
